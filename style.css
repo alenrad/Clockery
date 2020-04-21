@@ -23,7 +23,9 @@ footer {
 
 header{
   display: inline-flex;
-  margin-left: 42%;
+  width: 100%;
+  margin: 0;
+  justify-content: center;
 }
 
 .logga{
@@ -94,12 +96,14 @@ a{
 
 p{
   font-family: 'Bree Serif', serif;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 18%;
+  margin-right: 18%;
+  height: 500px;
   font-size: 24px;
   border: 2px solid black;
   padding: 5px;
   padding-bottom: 20px;
+  overflow:auto;
 }
 
 
