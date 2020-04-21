@@ -1,0 +1,175 @@
+html {
+   margin: 0px;
+   height: 100%;
+   width: 100%;
+
+}
+
+body {
+   margin: 0px;
+   min-height: 100%;
+   width: 100%;
+   font-family: Impact, sans-serif;
+}
+
+footer {
+    position: absolute;
+    justify-content: flex-start;
+    bottom: 0;
+    width: 100%;
+    margin: 0 auto;
+    border-top: 2px solid black;
+}
+
+header{
+  display: inline-flex;
+  margin-left: 42%;
+}
+
+.logga{
+  margin-top: 28px;
+  margin-bottom: 28px;
+  margin-left: 15px;
+}
+
+.om{
+  text-decoration: none;
+}
+
+h2{
+  margin-top: 1.5em;
+}
+
+h3{
+  vertical-align: middle;
+  float: right;
+  padding-right: 10px;
+}
+
+h4{
+  font-size: 15px;
+}
+
+a{
+  color: #0060B6;
+
+}
+
+.knappar{
+  margin-top: 40px;
+  text-align: center;
+}
+
+.knapp{
+  width: 200px;
+  height: 100px;
+  margin-right: 10px;
+  text-decoration: none;
+  border: 2px solid black;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.undreknapp{
+  vertical-align: middle;
+  text-decoration: none;
+  float: left;
+  font-size: 24px;
+  padding: 10px;
+  padding-top: 10px;
+  margin: 0;
+  text-decoration: none;
+}
+
+.nere{
+  padding-top: 15px;
+  padding-left: 5px;
+}
+
+.rubrik{
+  text-align: center;
+  font-size: 42px;
+  color: #3368b2;
+}
+
+p{
+  font-family: 'Bree Serif', serif;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-size: 24px;
+  border: 2px solid black;
+  padding: 5px;
+  padding-bottom: 20px;
+}
+
+
+/* [FONT] */
+#ctime, #tpick {
+  font-family: Impact, sans-serif;
+}
+.header {
+  text-align: center;
+  font-weight: normal;
+  margin: 5px 0 10px 0;
+}
+
+/* [CURRENT TIME] */
+#ctime {
+  margin: 0 auto;
+  max-width: 350px;
+  padding: 10px;
+  background: #000;
+  text-align: center;
+}
+#ctime .header {
+  color: #3368b2;
+}
+#ctime .square {
+  display: inline-block;
+  padding: 10px;
+  margin: 5px;
+}
+#ctime .digits {
+  font-size: 24px;
+  background: #fff;
+  color: #000;
+  padding: 20px 10px;
+  border-radius: 5px;
+}
+#ctime .text {
+  margin-top: 10px;
+  color: #ddd;
+}
+
+/* [TIME PICKER] */
+#tpick {
+  margin: 0 auto;
+  max-width: 350px;
+  padding: 10px;
+  background: #f2f2f2;
+  white-space: nowrap;
+}
+#tpick-h, #tpick-m, #tpick-s {
+  display: inline-block;
+  width: 32%;
+}
+#tpick select {
+  box-sizing: padding-box;
+  width: 100%;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 20px 0;
+}
+#tset, #treset {
+  box-sizing: padding-box;
+  width: 50%;
+  background: #3368b2;
+  color: #fff;
+  padding: 10px;
+  border: 0;
+  cursor: pointer;
+}
+#tset:disabled, #treset:disabled {
+  background: #aaa;
+  color: #888;
+}
